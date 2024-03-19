@@ -553,15 +553,23 @@
         </div>
         <div class="footer-form-container">
           <p class="footer-form-title">Subscribe</p>
-          <div class="footer-form">
-            <input
-              type="email"
-              class="footer-form-input"
-              name="email"
-              placeholder="E-mail"
-            />
-            <button type="submit" class="footer-form-button">Subscribe</button>
-          </div>
+          <form class="footer-form">
+            <label for="email" class="footer-form-label">
+              <input
+                type="email"
+                class="footer-form-input"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="footer-form-button">
+              Subscribe
+              <svg width="24" height="24" class="footer-form-button-icon">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>

@@ -519,12 +519,17 @@ button {
 .footer-form-input {
   border: none;
   height: 40px;
-  min-width: 264px;
+  width: 264px;
   background-color: transparent;
   border: 1px solid #fff;
   border-radius: 4px;
   padding-left: 16px;
   outline: none;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  line-height: 2;
+  color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .footer-form-input:focus {
@@ -532,15 +537,19 @@ button {
 }
 
 .footer-form-input::placeholder {
-  font-weight: 400;
+  /* font-weight: 400;
   font-size: 12px;
   line-height: 2;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.04em; */
   color: #fff;
 }
 .footer-form-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 4px;
-  padding: 8px 24px;
+  min-width: 165px;
+  height: 40px;
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -558,6 +567,10 @@ button {
   background-color: #404bbf;
 }
 
+.footer-form-button-icon {
+  margin-left: 16px;
+  fill: #fff;
+}
 /* modal */
 
 .backdrop {
